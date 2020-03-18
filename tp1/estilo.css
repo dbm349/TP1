@@ -1,14 +1,11 @@
 table {
     font-family: Calibri, Arial; 
-    border-left:1px solid #AAB7BC ;
-    border-right:1px solid #000000 ;
     border-collapse: collapse;
     margin-top: 30px;
-    height: 20px;
-    width: 20px;
-    margin-left: 20px;
-    padding: 15px;
-    border: #000000;
+    border-right:1px solid #000000 ;
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;    
   }
 
  th, td {
@@ -20,12 +17,10 @@ table {
 
  tr, td {
     text-align: center; 
-    
  }
 
     tbody tr:nth-child(even) {
-     background-color: #C3E4F3;
-     border: 1px solid #AAB7BC;       
+     background-color: #C3E4F3;      
     }
 
 
@@ -63,7 +58,6 @@ table {
     color: #000000;
     font-weight: normal;
     margin: 20px;
-    border-right: 1px solid #000000 ;
     
 
  }
@@ -277,5 +271,13 @@ img{
 
 }
 
+tbody{
 
+    border-right: 1px solid #000000 ;
+}
 
+tr td:first-child{
+
+    border-right:1px solid  #000000;
+
+}
