@@ -12,14 +12,15 @@ Luego se utiliza las etiquetas <html></html> la cual va a envolver todo nuestro 
 La etiqueta <head> corresponde al encabezado de nuestro documento dentro del cual podemos especificar el título del documento con el encabezado <title>.
 Y por último con los tags <body></body> definiremos todo el cuerpo del documento.
 Un ejemplo de la estructura podría ser:
+	
 <!DOCTYPE HTML>
 <html>
-<head>
+	<head>
 		<title>Mi pagina web</title>
-</head>
-<body>
+	</head>
+	<body>
 		<p>Aquí escribo un párrafo</p>
-</body>
+	</body>
 </html>
 
 # 3. ¿Cuál es la utilidad e importancia de los enlaces o links entre páginas? ¿Qué significa hipertexto? ¿Un link solo puede apuntar a otra página? ¿Qué importancia tiene esto último?
@@ -31,7 +32,7 @@ Los tags audio y video funcionan de la siguiente manera: cuando queremos incluir
 <audio controls>
  	<source src="audio.ogg" type="audio/ogg">
  	<source src="audio.mp3" type="audio/mpeg">
-El navegador no soporta el video.
+	El navegador no soporta el video.
 </audio>
 
 Como no todos los navegadores soportan el mismo tipo de archivo multimedia tanto de audio o de video, podemos incluir distintos archivos del mismo video, pero con varios formatos, como en el ejemplo anterior se incluye primero un audio formato ogg, luego el mismo en formato mp3 y por ultimo un aviso de que el navegador no soporta el audio. Asi el navegador recorrerá cada etiqueta ‘source’ desde arriba viendo si soporta el archivo, pasando al siguiente en caso de no poder o mostrando el último mensaje si no soporta ninguno de los tipos especificados.
