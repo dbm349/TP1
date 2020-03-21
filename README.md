@@ -1,4 +1,5 @@
 # TP1-WEB
+# TEORIA
 ## 1. ¿Qué es un lenguaje de marcado? ¿Cuál es su utilidad? ¿Qué es un tag? ¿Qué es un atributo?
 Un lenguaje de marcado, es un lenguaje que permite elaborar la estructura de un texto mediante el uso de etiquetas o tags. Este no debe confundirse con un lenguaje de programación ya que no son lo mismo. 
 La utilidad de este lenguaje es que nos permite añadir un significado a cada parte de nuestro texto.
