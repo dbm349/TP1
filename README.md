@@ -43,6 +43,13 @@ Los tags audio y video funcionan de la siguiente manera: cuando queremos incluir
 
 Como no todos los navegadores soportan el mismo tipo de archivo multimedia tanto de audio o de video, podemos incluir distintos archivos del mismo video, pero con varios formatos, como en el ejemplo anterior se incluye primero un audio formato ogg, luego el mismo en formato mp3 y por ultimo un aviso de que el navegador no soporta el audio. Asi el navegador recorrerá cada etiqueta ‘source’ desde arriba viendo si soporta el archivo, pasando al siguiente en caso de no poder o mostrando el último mensaje si no soporta ninguno de los tipos especificados.
 
-## 5. ¿Qué es el Rendering Engine de un Browser? ¿Cuál es el que utiliza cada uno de los 5 browsers más conocidos (Chrome, Firefox, Safari, IE-Edge, Opera)? ¿Cuál es la importancia de conocer cada uno de ellos en la construcción de un sitio? 
-
+## 5. ¿Qué es el Rendering Engine de un Browser? ¿Cuál es el que utiliza cada uno de los 5 browsers más conocidos (Chrome, Firefox, Safari, IE-Edge, Opera)? ¿Cuál es la importancia de conocer cada uno de ellos en la construcción de un sitio?
+El motor de renderizado de un browser es un software que adquiere un contenido marcado(como por el HTML, XML) e información de formateo(como CSS), lo interpreta y lo representa de manera visual a los usuarios. Son utilizados por los navegadores para mostrar contenido web  
+Los motores de renderizado utilizado por los diferentes navegadores son:
+-Chrome => Blink
+-Firefox => WebRender
+-Safari => WebKit
+-IE-Edge => Chromium
+-Opera => Blink
+La importancia de conocer a cada uno de ellos, es que a la hora de construir un sitio web podemos elegir el motor que contenga la mayor cantidad de funcionalidades que necesitamos, ya que poseen diferentes velocidades de carga y vistas de las páginas web, entre otras características.
 
