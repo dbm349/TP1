@@ -1,4 +1,17 @@
 # TP1-WEB
+
+**El objetivo de este tp consiste en adquirir los conocimientos básicos sobre el marcado de una página web.
+
+Con respecto a los ejercicios de la parte teorica se encuentra realizada en este mismo documento y en cuanto a la práctica, la resolución de los mismos se encuentran almacenado de la siguiente manera:
+
+En la carpeta tp1/Capturas lujan.gob.ar se encuentra resuelto la primer parte el ejercicio 6 de la práctica que consiste en dibujar el Wireframe correspondiente a la página principal de lujan.gob.ar. La segunda parte de este punto se basa en desarrollar, en función al Wireframe realizado anteriormente, el código HTML5 correspondiente(el mismo se encuentra en tp1/TP_1-Practico6.html).
+
+El siguiente ejercicio(Número 7) consiste en elaborar en HTML5 una página que contenga un currículum vítae, respetando la estructura dada en el trabajo, teniendo en cuenta que los elementos subrayados son enlaces a páginas web o a direcciones de correo electrónico y que la foto debe ser un enlace a la propia imagen. En la carpeta tp1/imagenes se encuentran las imagenes que forman parte del contenido del curriculum y el código correspondiente a este se encuentra en tp1/TP_1-Practico7.html).
+
+El último ejercicio(Número 5), se basa en elaborar el código que represente a la tabla dada por los docentes. La resolución de este punto se localiza en la carpeta tp1/TP_1-Practico5.html.
+
+
+
 # TEORIA
 ## 1. ¿Qué es un lenguaje de marcado? ¿Cuál es su utilidad? ¿Qué es un tag? ¿Qué es un atributo?
 Un lenguaje de marcado, es un lenguaje que permite elaborar la estructura de un texto mediante el uso de etiquetas o tags. Este no debe confundirse con un lenguaje de programación ya que no son lo mismo. 
